@@ -99,7 +99,7 @@ Your chaincode is instantiated clean, so let’s initialize the ledger with a fe
 		-c '{"function":"initLedger","Args":[]}' 
 		--waitForEvent 
 		--tls 
-		--cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/	orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem 
+		--cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem 
 		--peerAddresses peer0.org1.example.com:7051 
 		--tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
 
